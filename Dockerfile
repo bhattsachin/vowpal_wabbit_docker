@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-ARG VW_VERSION=8.6.0
+ARG VW_VERSION=8.6.1
 ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 
 RUN apt-get update --fix-missing && \
